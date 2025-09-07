@@ -1,8 +1,8 @@
 name:first workflow
-on:Push
+on:push
 jobs:
   first-job:
-  runs-on:ubuntu-latest
+  runs-on: ubuntu-latest
   steps:
-    -name:say hello
-    -run:echo "hello"
+    -name: say hello
+     run: echo "hello"
