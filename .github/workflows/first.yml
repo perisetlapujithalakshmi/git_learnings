@@ -2,7 +2,7 @@ name:first workflow
 on:push
 jobs:
   first-job:
-  runs-on: ubuntu-latest
-  steps:
-    -name: say hello
-     run: echo "hello"
+    runs-on: ubuntu-latest
+    steps:
+      -name: say hello
+       run: echo "hello"
